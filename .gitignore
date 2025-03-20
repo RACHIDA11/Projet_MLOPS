@@ -1,0 +1,9 @@
+
+# Ignorer les dossiers de logs de MLflow
+mlruns/
+mlflow_logs/
+
+# Ignorer les fichiers de cache Python
+*.pyc
+__pycache__/
+
