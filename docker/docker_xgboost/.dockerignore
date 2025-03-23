@@ -1,0 +1,24 @@
+# Ignorer les dossiers inutiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignorer les fichiers de l'environnement virtuel (venv)
+venv/
+.env
+*.env
+
+# Ignorer les datasets lourds
+data/raw/
+data/*.csv
+data/*.xlsx
+
+# Ignorer les fichiers de configuration IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de Docker
+.dockerignore
+Dockerfile
