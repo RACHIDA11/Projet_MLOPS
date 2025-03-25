@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: streamlit-app           # set this to your Amazon ECR repository name
   ECS_SERVICE: streamlitService                 # set this to your Amazon ECS service name
   ECS_CLUSTER: streamlitCluster2                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: streamlitlgbm # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: streamlitlgbm # set this to the path to your Amazon ECS task definitio
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: streamlitcont           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
